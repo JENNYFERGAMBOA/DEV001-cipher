@@ -6,9 +6,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>DECIFREMOS EL MENSAJE</h1>
     </div>
+
+    <div id="info0">
+      <textarea rows="5" cols="50" id="mensajeADecifrar" type="text" name="textcipher" placeholder="escriba su mensaje">
+      </textarea>
+    </div>
+
+    <div id="numDesplazamiento">
+      <input id="desplazamiento" type="number"  placeholder="elija su número de desplazamiento" min="0"/> 
+    </div>
+    
+      <button id="cifrar" name="enviar" value="enviar" >encriptar
+      </button>
+
+      <button id="descifrar" name="enviar" value="enviar" >desencriptar
+      </button>
+
+    <div id="info1">
+      <textarea rows="5" cols="50" id="textoResultado" type="text" name="answer" placeholder="aqui aparecera su respuesta">
+      </textarea>
+    </div>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>

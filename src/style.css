@@ -1,0 +1,75 @@
+body{
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Oswald', sans-serif;
+        
+}
+#root{
+  
+  color: #6542b2;
+  text-align: center;
+  font-size: 20pt;
+  padding-top: 12%;
+ 
+}
+#list{margin: 10px ;
+  padding: 10px ;
+  border-radius: 10px;
+  font-size: 15pt;
+}
+
+#numDesplazamiento{
+  text-align: center;
+  padding: 10px ;
+  border-radius: 10px;
+}
+
+
+#textcipher{
+  outline-color: rgb(243, 196, 232);
+}
+textarea{
+  background-color: #efefef;
+  border-radius: 10px;
+  padding: 10px;
+  }
+#info{  
+  text-align: center;
+}
+
+#botones{
+  text-align: center;
+}
+#myBoton0{
+ margin: 10px 40px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  background: #89d4e5;
+  border: none;
+
+  background-position: center;
+ 
+}
+#myBoton0:hover{
+  background: #ffdacf;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#myBoton1{
+  margin: 10px 40px;
+   padding: 20px 50px;
+   border-radius: 10px;
+   background: #89d4e5;
+   border: none;
+ 
+   background-position: center;
+  
+ }
+ #myBoton1:hover{
+   background: #ffdacf;
+  
+   background-position: center;
+   background-repeat: no-repeat;
+ }
