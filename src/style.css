@@ -3,73 +3,98 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     font-family: 'Oswald', sans-serif;
-        
 }
-#root{
-  
-  color: #6542b2;
+
+#contenido{
+  background: #ffffffc1;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1{
+  text-shadow: 3px 3px 4px #84155d;
+  color: #ffffff;
+}
+
+#pantalla{
   text-align: center;
   font-size: 20pt;
-  padding-top: 12%;
- 
+  padding: 2%;
 }
-#list{margin: 10px ;
-  padding: 10px ;
-  border-radius: 10px;
+
+#que{
+  text-align: center;
+  color: #000000;
   font-size: 15pt;
+}
+
+.texto0{
+  font-size: 15pt;
+  text-align: center;
+  color: #000000;
 }
 
 #numDesplazamiento{
   text-align: center;
-  padding: 10px ;
-  border-radius: 10px;
+ 
 }
 
-
-#textcipher{
-  outline-color: rgb(243, 196, 232);
+#desplazamiento{
+  border-radius:5px;
+  font-size: 20pt;
+  width: 30px;
+  padding-left: 15px;
+  font-family: 'Oswald', sans-serif;
 }
-textarea{
-  background-color: #efefef;
+
+#mensajeADecifrar{
+  
   border-radius: 10px;
   padding: 10px;
-  }
-#info{  
-  text-align: center;
+}
+
+#textoResultado{
+ 
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(88, 88, 88);
 }
 
 #botones{
   text-align: center;
+  padding: 20px;
 }
-#myBoton0{
- margin: 10px 40px;
-  padding: 20px 50px;
-  border-radius: 10px;
-  background: #89d4e5;
-  border: none;
 
-  background-position: center;
- 
+#cifrar{
+ margin: 10px 40px;
+ padding: 10px 50px;
+ border-radius: 10px;
+ background: #cd86b4;
+ border: none;
+ background-position: center;
+ box-shadow: 2px 2px 5px rgb(88, 88, 88);  
+ font-family: 'Oswald', sans-serif;
+ font-size: 12pt;
 }
-#myBoton0:hover{
-  background: #ffdacf;
-  
-  background-position: center;
-  background-repeat: no-repeat;
+
+#cifrar:hover{
+  background: #a94887;
 }
-#myBoton1{
-  margin: 10px 40px;
-   padding: 20px 50px;
+
+#descifrar{
+   margin: 10px 40px;
+   padding: 10px 40px;
    border-radius: 10px;
-   background: #89d4e5;
+   background:#cd86b4;
    border: none;
- 
    background-position: center;
-  
- }
- #myBoton1:hover{
-   background: #ffdacf;
-  
-   background-position: center;
-   background-repeat: no-repeat;
+   box-shadow: 2px 2px 5px rgb(88, 88, 88);
+   font-family: 'Oswald', sans-serif;
+   font-size: 12pt;
+  }
+
+ #descifrar:hover{
+   background: #a94887;
  }

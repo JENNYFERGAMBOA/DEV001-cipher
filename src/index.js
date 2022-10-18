@@ -9,28 +9,20 @@ function inicio(){
   true
   );
 
-  /*document.getElementById("desplazamiento").addEventListener("onkeypress",function(){
-    if(offset<0){
-    return alert("error, escoja un numero positivo");
-    }
-    return alert("puede avanzar")
-  });*/
-
   document.getElementById("cifrar").addEventListener("click",function(){
     let string= document.getElementById("mensajeADecifrar").value;
     let offset= document.getElementById("desplazamiento").value;
-    document.getElementById("textoResultado").value=cipher.encode(offset,string);
+    document.getElementById("textoResultado").value=cipher.encode(offset,string); 
   },
   true
-  );
-   
+  )
   document.getElementById("descifrar").addEventListener("click",function(){
     let string= document.getElementById("mensajeADecifrar").value;
     let offset= document.getElementById("desplazamiento").value;
     document.getElementById("textoResultado").value=cipher.decode(offset,string);
   },
   true
-  );
+  )
 }
 
 
