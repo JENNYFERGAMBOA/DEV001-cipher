@@ -1,0 +1,100 @@
+body{
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+#contenido{
+  background: #ffffffc1;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1{
+  text-shadow: 3px 3px 4px #84155d;
+  color: #ffffff;
+}
+
+#pantalla{
+  text-align: center;
+  font-size: 20pt;
+  padding: 2%;
+}
+
+#que{
+  text-align: center;
+  color: #000000;
+  font-size: 15pt;
+}
+
+.texto0{
+  font-size: 15pt;
+  text-align: center;
+  color: #000000;
+}
+
+#numDesplazamiento{
+  text-align: center;
+ 
+}
+
+#desplazamiento{
+  border-radius:5px;
+  font-size: 20pt;
+  width: 30px;
+  padding-left: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#mensajeADecifrar{
+  
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#textoResultado{
+ 
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(88, 88, 88);
+}
+
+#botones{
+  text-align: center;
+  padding: 20px;
+}
+
+#cifrar{
+ margin: 10px 40px;
+ padding: 10px 50px;
+ border-radius: 10px;
+ background: #cd86b4;
+ border: none;
+ background-position: center;
+ box-shadow: 2px 2px 5px rgb(88, 88, 88);  
+ font-family: 'Oswald', sans-serif;
+ font-size: 12pt;
+}
+
+#cifrar:hover{
+  background: #a94887;
+}
+
+#descifrar{
+   margin: 10px 40px;
+   padding: 10px 40px;
+   border-radius: 10px;
+   background:#cd86b4;
+   border: none;
+   background-position: center;
+   box-shadow: 2px 2px 5px rgb(88, 88, 88);
+   font-family: 'Oswald', sans-serif;
+   font-size: 12pt;
+  }
+
+ #descifrar:hover{
+   background: #a94887;
+ }
