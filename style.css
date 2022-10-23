@@ -38,13 +38,12 @@ h1{
 
 #numDesplazamiento{
   text-align: center;
- 
 }
 
 #desplazamiento{
   border-radius:5px;
   font-size: 20pt;
-  width: 30px;
+  width: auto;
   padding-left: 15px;
   font-family: 'Oswald', sans-serif;
 }
